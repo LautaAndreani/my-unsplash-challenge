@@ -1,7 +1,7 @@
 import { Images } from "../models/api"
 import { Values } from "../models/States"
 
-const API_URL = "https://myunsplash-server.herokuapp.com/api/images"
+const API_URL = "https://my-unsplash-server.onrender.com/api/images"
 
 export const Api = {
 	getImages: async (): Promise<Images | undefined> => {
