@@ -1,0 +1,6 @@
+export { default as Gallery } from "./Gallery"
+export { default as Header } from "./Header"
+export { default as Modal } from "./Modal"
+export { default as Inputs } from "./Inputs"
+export { default as Button } from "./Button"
+export { default as Card } from "./Card"

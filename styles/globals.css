@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Noto-sans';
+    src: url('../public/assets/fonts/NotoSans-Medium.ttf');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto-sans';
+    src: url('../public/assets/fonts/NotoSans-Bold.ttf');
+    font-weight: 700;
+    font-display: swap;
+}
+
+* {
+    font-family: 'Noto-sans';
+    font-weight: 500;
+}
